@@ -10,7 +10,9 @@
   loadScript("https://talkmoji.dev.f90.co.uk/socket.io/socket.io.js", init);
 
   function init() {
-    const socket = window.io ? window.io("/host") : null;
+    const socket = window.io
+      ? window.io("https://talkmoji.dev.f90.co.uk/host")
+      : null;
     socket.on("on", handleEmojiOn);
     socket.on("off", handleEmojiOff);
 
