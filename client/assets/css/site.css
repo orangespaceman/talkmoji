@@ -1,0 +1,43 @@
+/* elements */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #506080;
+  color: #eee;
+  font-family: Georgia, serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+pre {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+  overflow: scroll;
+  padding: 0.5rem 1rem;
+}
+
+code,
+a {
+  color: #f90;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+
+.Wrapper {
+  padding: 0 1rem;
+}

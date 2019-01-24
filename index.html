@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Talkmoji - Demo
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#506080">
+    <link rel="stylesheet" href="./client/assets/css/site.css">
+    <link rel="stylesheet" href="https://talkmoji.dev.f90.co.uk/css">
+    <script src="https://talkmoji.dev.f90.co.uk/js" data-talk="unique-talk-name"></script>
+  </head>
+  <body>
+    <main class="Wrapper">
+      <h1>Talkmoji</h1>
+      <p>Are you about to give a talk? Are your slides made with HTML/CSS/JS? Do you want live feedback?</p>
+      <p>Try talkmoji!</p>
+      <ol class="steps">
+      <li>Think of a unique name for your talk: <code>data-talk="unique-talk-name"</code></li>
+      <li>Pick a selection of emoji <code>data-emoji="😀🖕😴😄"</code> (or leave this attribute out to use the default set, like on this page)</li>
+      <li>Add this to your slides:
+        <pre><code>&lt;link rel="stylesheet" href="https://talkmoji.dev.f90.co.uk/css"&gt;
+&lt;script src="https://talkmoji.dev.f90.co.uk/js"
+  data-talk="unique-talk-name"
+  data-emoji="😀🖕😴😄"&gt;&lt;/script&gt;</code></pre>
+      </li>
+      <li>(Hint: You can leave out the stylesheet and create your own instead to customise its appearance)</li>
+      <li>Share the feedback URL with your audience: <a href="https://talkmoji.dev.f90.co.uk/unique-talk-name" target="_blank">https://talkmoji.dev.f90.co.uk/unique-talk-name</a></li>
+    </ol>
+    <p><a href="https://talkmoji.dev.f90.co.uk/unique-talk-name" target="_blank">Try it</a> on this page!</p>
+    </main>
+    <script src="https://orangespaceman.github.io/lab-badge/lab-badge.min.js"></script>
+  </body>
+</html>
